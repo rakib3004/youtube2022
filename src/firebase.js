@@ -10,13 +10,13 @@ const firebaseConfig = {
   projectId: "talk-wave-829bf",
   storageBucket: "talk-wave-829bf.firebasestorage.app",
   messagingSenderId: "773053148168",
-  appId: "1:773053148168:web:939d7936451f0da50f75bd",
-  measurementId: "G-QLMVSGTM6N"
+  appId: "1:773053148168:web:159bce18910888640f75bd",
+  measurementId: "G-YRVJ6Y1LLZ"
 };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+export const analytics = getAnalytics(app);
 export const auth = getAuth();
 export const storage = getStorage();
 export const db = getFirestore()
